@@ -1,0 +1,32 @@
+.bi.bi-box-arrow-right {
+  font-size: 25px;
+  display: flex;
+  border: 0;
+  color: black;
+}
+
+.logout {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  bottom: 0;
+  border-radius: 5px;
+}
+
+.logout:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+.logout-outer {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}

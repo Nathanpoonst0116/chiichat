@@ -1,0 +1,105 @@
+.my-text {
+  display: inline-flex;
+  width: auto;
+  color: white;
+  background-color: rgb(0, 123, 255);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+}
+
+.other-text {
+  display: inline-flex;
+  width: auto;
+  background-color: rgb(220, 220, 220);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+}
+
+.msg-outer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.msg-name-me {
+  display: inline-flex;
+  font-size: 12px;
+  color: grey;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 0;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+}
+
+.msg-name-other{
+  display: inline-flex;
+  font-size: 12px;
+  color: grey;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 0;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+}
+
+.header-text {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.chat-info {
+  display: none;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  z-index: 200;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  left: 200px;
+  top: 50px;
+}
+
+.go-bottom {
+  background-color: white;
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  justify-content: center;
+  bottom: 100px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 300;
+  cursor: pointer;
+}
+
+.go-bottom:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.msg-text {
+  font-size: 15px;
+}

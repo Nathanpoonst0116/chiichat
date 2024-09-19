@@ -1,0 +1,32 @@
+.re-pw-box {
+  box-sizing: border-box; 
+}
+
+.re-pw-box {
+  display: flex;
+  padding: 5px;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(166, 200, 219);
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+.back-login {
+  display: flex;
+  font-size: 14px;
+  color: rgb(0, 72, 217);
+  font-style: normal;
+  margin-top: 10px;
+}
+
+.error-message2 {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  z-index: 30;
+  margin-bottom: 10px;
+}
